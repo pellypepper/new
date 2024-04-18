@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --bgcolor: rgba(0, 0, 0, 0.969);
+    --bgcolor2: rgba(42, 71, 42, 0.13);
+    --bg3color: rgba(35, 29, 29, 0.257);
+    --borderColor: rgba(128, 128, 128, 0.715);
+    --btnColor: rgb(236, 145, 160);
+    --textColor: whitesmoke;
+
+
+}
+body{
+    background-color: var(--bgcolor);
+    height: 100vh;
+    width:  100%;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.price_div{
+    
+    width: 850px;
+    height: 500px;
+    padding: 20px;
+    color:  var(--textColor);
+    text-align: center;
+}
+.price_div h2, .price_div h6{
+    margin-bottom: 10px;
+}
+.price_div input{
+    margin-left: 10px;
+    margin-bottom: 10px;
+       margin-right: 10px;
+}
+.main_box{
+    width: 800px;
+    display: flex;
+    justify-content: center;
+}
+.box_1{
+    border: 2px var(--bgcolor2) solid;
+    width: 250px;
+    padding: 20px;
+    height: 400px;
+    margin-right: 20px;
+    background-color: var(--bgcolor2);
+   
+    
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    margin-left: 3rem;
+    text-align: justify;
+  }
+  
+  li::before {
+    content: "• ";
+    color: red; /* or whatever color you prefer */
+  }
+/* .box_1:hover{
+    width:  300px;
+    height: 420px;
+    outline: 1px solid green;
+} */
+.main_box .box_1 .btn_none{
+    background-color: inherit;
+    color: var(--textColor);
+    
+}
+.box_ul ul{
+    
+    line-height: 1.5rem;
+    margin-top: 20px;
+    
+
+}
+.box_1 button{
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: var(--btnColor);
+}
+
+.box_1 li{
+    
+   
+    font-size: 10px;
+    
+}
